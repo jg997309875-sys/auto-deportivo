@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autos Deportivos</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+background:black;
+padding:20px;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:red;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-size:18px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+
+background:
+linear-gradient(rgba(0,0,0,.7),
+rgba(0,0,0,.7)),
+url("https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1500");
+
+background-size:cover;
+background-position:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:65px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:25px;
+margin-bottom:30px;
+}
+
+.boton{
+padding:15px 25px;
+background:red;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+margin:10px;
+}
+
+a{
+text-decoration:none;
+}
+
+section{
+padding:100px 50px;
+}
+
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:40px;
+color:red;
+}
+
+.card{
+background:#222;
+margin:30px;
+padding:25px;
+border-radius:20px;
+}
+
+.card img{
+width:100%;
+height:350px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.card h3{
+margin-bottom:20px;
+color:red;
+}
+
+.card p{
+line-height:1.8;
+margin-bottom:10px;
+}
+
+.regresar{
+text-align:center;
+margin-top:30px;
+}
+
+footer{
+background:black;
+padding:20px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body id="inicio">
+
+<header>
+
+<nav>
+
+<div class="logo">AutoSport</div>
+
+<ul>
+
+<li><a href="#inicio">Inicio</a></li>
+
+<li><a href="#modelos">Ver Modelos</a></li>
+
+<li><a href="#historias">Ver Historias</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>AUTOS DEPORTIVOS</h1>
+
+<p>Velocidad - Potencia - Tecnología</p>
+
+<div>
+
+<a href="#modelos">
+<button class="boton">
+Ver Modelos
+</button>
+</a>
+
+<a href="#historias">
+<button class="boton">
+Ver Historias
+</button>
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="modelos">
+
+<h2>Modelos Destacados</h2>
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?w=1200">
+
+<h3>Ferrari LaFerrari</h3>
+
+<p><b>Año:</b> 2013</p>
+
+<p><b>Motor:</b> V12 híbrido 6.3 litros</p>
+
+<p><b>Potencia:</b> 963 HP</p>
+
+<p><b>Velocidad:</b> 350 km/h</p>
+
+<p><b>Aceleración:</b> 0-100 km/h en 2.4 segundos</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1200">
+
+<h3>Lamborghini Aventador</h3>
+
+<p><b>Año:</b> 2011</p>
+
+<p><b>Motor:</b> V12 6.5 litros</p>
+
+<p><b>Potencia:</b> 730 HP</p>
+
+<p><b>Velocidad:</b> 350 km/h</p>
+
+<p><b>Aceleración:</b> 0-100 km/h en 2.9 segundos</p>
+
+</div>
+
+<div class="regresar">
+
+<a href="#inicio">
+
+<button class="boton">
+
+Volver al Inicio
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+
+
+
+<section id="historias">
+
+<h2>Historias de los Autos</h2>
+
+
+<div class="card">
+
+<h3>Historia Ferrari LaFerrari</h3>
+
+<p>
+
+Ferrari presentó el LaFerrari en el año 2013 como un vehículo especial para representar la tecnología más avanzada de la empresa. Fue el primer Ferrari híbrido y utilizó tecnología inspirada en la Fórmula 1. Solamente se fabricaron unidades limitadas.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Historia Lamborghini Aventador</h3>
+
+<p>
+
+El Aventador apareció en 2011 para reemplazar al Lamborghini Murciélago. Su diseño agresivo, motor V12 y puertas tipo tijera hicieron que se volviera uno de los autos deportivos más reconocidos del mundo.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Historia Bugatti Chiron</h3>
+
+<p>
+
+Bugatti desarrolló el Chiron para superar los límites del Veyron. Gracias a su motor W16 y sus 1500 caballos de fuerza se convirtió en uno de los vehículos más rápidos del planeta.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Historia Porsche 911 Turbo S</h3>
+
+<p>
+
+El Porsche 911 comenzó su historia en 1964 y evolucionó durante varias décadas. El Turbo S es una de las versiones más potentes y tecnológicas fabricadas por Porsche.
+
+</p>
+
+</div>
+
+
+<div class="regresar">
+
+<a href="#inicio">
+
+<button class="boton">
+
+Volver al Inicio
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+AutoSport © 2026
+
+</footer>
+
+</body>
+</html>
